@@ -56,7 +56,7 @@ const Tanggal = () => {
           </Typography>
 
           <Typography variant="h2" sx={{ textAlign: "center", my: 3 }}>
-            {resepsi.tanggal.split(" ").map((text, key) => (
+            {akad.tanggal.split(" ").map((text, key) => (
               <TextMask key={key} variants={textVariants}>
                 {text}
               </TextMask>
@@ -68,7 +68,7 @@ const Tanggal = () => {
 
         <Grid item md={6} xs={12}>
           <CardTanggal
-            title="Akad Nikah"
+            title="Wedding"
             tanggal={akad.tanggal}
             jam={akad.jam}
             lokasi={akad.lokasi}
@@ -79,7 +79,7 @@ const Tanggal = () => {
 
         <Grid item md={6} xs={12}>
           <CardTanggal
-            title="Resepsi Nikah"
+            title="Reception"
             tanggal={resepsi.tanggal}
             jam={resepsi.jam}
             lokasi={resepsi.lokasi}

@@ -181,7 +181,7 @@ const Hero = () => {
                 textShadow: "3px 3px rgba(60, 42, 33, 0.6)",
               }}
             >
-              {wedding.resepsi.tanggal.split(" ").map((text, key) => (
+              {wedding.akad.tanggal.split(" ").map((text, key) => (
                 <TextMask key={key} variants={textVariants}>
                   {text}
                 </TextMask>

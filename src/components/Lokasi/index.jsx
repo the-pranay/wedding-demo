@@ -6,7 +6,7 @@ import { Box, Container } from "@mui/material";
  * @returns React.ReactElement
  */
 const Lokasi = () => {
-  const { gmaps } = useDB((db) => db.wedding.resepsi);
+  const { gmaps } = useDB((db) => db.wedding.akad);
   return (
     <Box
       sx={{
