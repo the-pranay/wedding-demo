@@ -3,12 +3,12 @@
 ## Instalation
 
 ```bash
-git clone https://github.com/saiful-akbar/my-wedding.git
+git clone https://github.com/the-pranay/wedding-demo.git
 
 ```
 
 ```bash
-cd my-wedding && npm install
+cd wedding-demo && npm install
 
 ```
 
